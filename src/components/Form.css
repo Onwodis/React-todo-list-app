@@ -1,0 +1,44 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 420px;
+    /* background: ; */
+}
+
+.form-control input, .add-btn  {
+    border: none;
+    background: transparent;
+    padding: 20px 10px;
+    outline: none;
+}
+
+.form-control input {
+    width: 100%;
+}
+
+.add-btn {
+    cursor: pointer;
+}
+
+.select-container {
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    width: 120px;
+}
+
+select.filter-todo {
+    background: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+}
