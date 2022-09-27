@@ -1,3 +1,6 @@
 .todo-list li {
     background: var(--grey-dark-color);
+    text-transform: capitalize;
+    position: relative;
+    word-break: break-all;
 }

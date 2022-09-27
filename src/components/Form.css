@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    margin: auto;
 }
 
 .form-control {
@@ -10,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    width: 420px;
+    width: 30%;
     /* background: ; */
 }
 
@@ -34,6 +35,14 @@
     border-radius: 10px;
     margin-left: 20px;
     width: 120px;
+}
+.inputg{
+    text-align: center;
+    color: rgb(54, 3, 3);
+    text-shadow: 0px 6px 28px black;
+    font-size: 30px;
+    font-style: italic;
+    font-family:cursive;
 }
 
 select.filter-todo {
